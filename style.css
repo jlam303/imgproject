@@ -1,0 +1,127 @@
+#body{
+    background-color: gray;
+}
+#top{
+    padding: 10px;
+    background-color: #bca9ad ;
+    font-size: large;
+    width: 1290px;
+    margin: auto;
+    margin-top: 20px;
+}
+#es{
+    margin-left: 40px;
+}
+header > p > span{
+    margin: 15px;
+}
+
+.logo{
+    grid-area: logo;
+}
+.p1 {
+    grid-area: p1;
+}
+.p2 {
+    grid-area: p2;
+}
+.p3 {
+    grid-area: p3;
+}
+.p4 {
+    grid-area: p4;
+}
+.p5 {
+    grid-area: p5;
+}
+.p6 {
+    grid-area: p6;
+}
+
+.p7 {
+    grid-area: p7;
+}
+
+.p8 {
+    grid-area: p8;
+}
+
+.p9 {
+    grid-area: p9;
+}
+
+.p10 {
+    grid-area: p10;
+}
+.p11 {
+    grid-area: p11;
+}
+
+.p12 {
+    grid-area: p12;
+}
+
+.p13 {
+    grid-area: p13;
+}
+
+.p14 {
+    grid-area: p14;
+}
+
+.p15 {
+    grid-area: p15;
+}
+.p16 {
+    grid-area: p16;
+}
+
+.p17 {
+    grid-area: p17;
+}
+
+.p18 {
+    grid-area: p18;
+}
+
+.p19 {
+    grid-area: p19;
+}
+
+.p20 {
+    grid-area: p20;
+}
+.text{
+    grid-area: text;
+}
+#props{
+    position:relative;
+    top: 40px;
+}
+div > div > p{
+    position: relative;
+    top: 50px;
+    text-align: right;
+    color: brown;
+}
+.container{
+    width: 1290px;
+    border: 10px solid white;
+    margin: auto;
+    background-color: white;
+    display:grid;
+    gap: 10px;
+    margin-bottom: 20px;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 65px 76px 178px 380px 250px 150px 154px 150px;
+    grid-template-areas: 
+    "logo logo logo logo p1"
+    "logo logo logo logo p2"
+    "logo logo logo logo p3"
+    "p4 p4 p5 p6 p7 "
+    "p8 p9 p9 p10 p11"
+    "p8 p13 p14 p14 p15"
+    "p12 p13 p16 p17 p18"
+    "p19 p20 . . text"
+    ;
+}
