@@ -1,4 +1,4 @@
-#body{
+body{
     background-color: gray;
 }
 #top{
@@ -27,6 +27,7 @@ header > p > span{
 }
 .p3 {
     grid-area: p3;
+    margin:auto;
 }
 .p4 {
     grid-area: p4;
@@ -86,10 +87,12 @@ header > p > span{
 
 .p19 {
     grid-area: p19;
+    margin: auto;
 }
 
 .p20 {
     grid-area: p20;
+    margin: auto;
 }
 .text{
     grid-area: text;
@@ -124,4 +127,42 @@ div > div > p{
     "p12 p13 p16 p17 p18"
     "p19 p20 . . text"
     ;
+}
+@media only screen and (max-width: 400px){
+    #top {
+            padding: 10px;
+            background-color: #bca9ad;
+            font-size: xx-large;
+            margin: auto;
+            margin-top: 20px;
+        }
+    .container {
+            border: 10px solid white;
+            background-color: white;
+            display: grid;
+            gap: 20px 8px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "logo logo logo logo logo"
+                "p1 p19 p20 p20 p3 "
+                "p2 p19 p20 p20 p3"
+                "p4 p4 p5 p6 p7 "
+                "p8 p9 p9 p10 p11"
+                "p8 p13 p14 p14 p15"
+                "p12 p13 p16 p17 p18"
+                "text text text text text"
+            ;
+        }
+        #props {
+            position: relative;
+            top: 20px;
+        }
+        div>div>p {
+            text-align: left;
+            font-size: large;
+            color: black;
+            background-color: #bca9ad ;
+        }
+        
 }
