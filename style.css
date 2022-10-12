@@ -94,18 +94,20 @@ header > p > span{
     grid-area: p20;
     margin: auto;
 }
-.text{
+.text {
     grid-area: text;
-}
-#props{
-    position:relative;
-    top: 40px;
-}
-div > div > p{
     position: relative;
     top: 50px;
     text-align: right;
     color: brown;
+}
+.text > span{
+    display: block;
+    margin: 10px;
+}
+#props{
+    position:relative;
+    top: 40px;
 }
 .container{
     width: 1290px;
@@ -129,18 +131,25 @@ div > div > p{
     ;
 }
 @media only screen and (max-width: 400px){
+    #es {
+            margin-left: 10px;
+        }
     #top {
-            padding: 10px;
-            background-color: #bca9ad;
-            font-size: xx-large;
-            margin: auto;
+            padding: 0px;
+            padding-top: 5px;
+            padding-bottom: 2px;
+            background-color:goldenrod;
+            font-size: 11px;
+            margin: 0;
             margin-top: 20px;
+            max-width: 100%;
         }
     .container {
-            border: 10px solid white;
+            width: fit-content;
+            border: none;
             background-color: white;
             display: grid;
-            gap: 20px 8px;
+            gap: 3px;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: auto;
             grid-template-areas:
@@ -156,13 +165,109 @@ div > div > p{
         }
         #props {
             position: relative;
-            top: 20px;
+            top: 10px;
         }
-        div>div>p {
+        .text {
+            grid-area: text;
+            position: relative;
+            top: 0px;
             text-align: left;
-            font-size: large;
             color: black;
-            background-color: #bca9ad ;
+            background-color: goldenrod;
         }
-        
+        .text>span {
+            font-size: small;
+            display: inline;
+            margin: 0px;
+        }
+        .logo >img{
+            grid-area: logo;
+            max-width: 100%;
+        }
+    
+        .p1 >img{
+            grid-area: p1;
+            max-width: 100%;
+        }
+    
+        .p2 > img{
+            
+            max-width: 100%;
+        }
+    
+        .p3 >img{
+            
+            max-width: 100%
+
+        }
+    
+        .p4 >img{
+            max-width: 100%
+        }
+    
+        .p5 >img{
+            max-width: 100%
+        }
+    
+        .p6 >img{
+            max-width: 100%
+        }
+    
+        .p7 >img{
+            max-width: 100%
+        }
+    
+        .p8 >img{
+            max-width: 100%
+        }
+    
+        .p9 >img{
+            max-width: 100%
+        }
+    
+        .p10 >img{
+            max-width: 100%
+        }
+    
+        .p11 >img{
+            max-width: 100%
+        }
+    
+        .p12 >img{
+            max-width: 100%
+        }
+    
+        .p13 >img{
+            max-width: 100%
+        }
+    
+        .p14 >img{
+            max-width: 100%
+        }
+    
+        .p15 >img{
+            max-width: 100%
+        }
+    
+        .p16 >img{
+            max-width: 100%
+        }
+    
+        .p17 >img{
+            max-width: 100%
+        }
+    
+        .p18 >img{
+            max-width: 100%
+        }
+    
+        .p19 >img{
+            max-width: 100%
+
+        }
+    
+        .p20 > img{
+            max-width: 100%
+
+        }
 }
